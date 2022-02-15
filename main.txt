@@ -1,0 +1,34 @@
+// Lines containing '//' at the beginning 
+//will not be read out
+//
+// any normal test will be displayed at
+//intervals of 0.5 seconds
+//
+// Lines with '!' at the beginning will be questions
+//displayed like this:
+// <a>
+//
+// 1) <b>
+//
+// 2) <c>
+//
+// 3) <d>
+//
+// ect...
+// Here's the syntax:
+//!a=b-c-d=index:0 
+//after the '=' you can add as many sections as you
+//want!
+//'=index:' is a decorator. In the main file it 
+//should always be 0.
+//When you set it to one it will skip the next .txt file.
+//If you have one question that points to 5.txt,
+//and another question that also points to 5.txt,
+//you can set the index to 1 so that the 
+//question you have just made points to the next few 
+//text files and skips 5.txt.
++++CYOATE DEMO+++
+
+The dragon approaches
+
+!do you fight it or talk with it?=Fight-Talk=index:0

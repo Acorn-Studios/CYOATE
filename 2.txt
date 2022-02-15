@@ -1,0 +1,5 @@
+You talk with the dragon.
+
+He does not agree.
+
+!Do you keep talking or flee?=Keep talking-Flee=index:0
